@@ -55,7 +55,7 @@ def get_weather(city, open_wearher_toke):
 
     except Exception as ex:
         print(ex)
-        print("Проверьте названия города:")
+        print("Проверьте название города")
 
 def main():
     city = input("Введите город:")
